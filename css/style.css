@@ -58,19 +58,64 @@ table {
 	background-attachment: fixed;
 }
 #first {
-	background-color: gray;
+	background-color: #fff;
 }
 #second {
 	background-color: #fff;
 }
 
 /* section first */
+#first {
+	position: relative;
+}
 .logo {
 	margin: 0;
 	position: fixed;
 }
+#info {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	width: 50%;
+}
+#info h1 {
+	font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    margin-bottom: 120px;
+}
+#info h1 span {
+	font-size: 20px;
+	letter-spacing: 0;
+	font-weight: normal;
+}
+#info p {
+	font-size: 18px;
+	line-height: 35px;
+}
+#about-pc {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	width: 50%;
+	text-align: right;
+}
+#about-pc p {
+	background-color: #000;
+	color: #fff;
+	margin-bottom: 5px;
+	padding: 8px 15px;
+	line-height: 1em;
+	display: inline-block;
+}
+#about-sp {
+	display: none;
+}
 
 /* section second */
+#second {
+	display: none;
+}
 #second article {
 	color: white;
 	width: 800px;
@@ -83,4 +128,101 @@ table {
 	padding: 10px 20px;
 	line-height: 1.5em;
 	display: inline-block;
+}
+
+
+/* tablet */
+@media screen and (max-width: 1440px) and (min-width: 480px) {
+	#first {
+		/* background-color: yellow; */
+		min-width: 1100px;
+	}
+	#info {
+		min-width: calc(50% - 40px);
+	}
+	#about-pc {
+		min-width: calc(50% - 40px);
+		font-size: 15px;
+	}
+}
+
+
+/* スマホ */
+@media screen and (max-width: 480px) {
+	#first {
+		/* background-color: pink; */
+		height: 900px;
+	}
+	.logo {
+		position: absolute;
+	}
+	.logo #logoimg {
+		width: 100%;
+	}
+	#info {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		width: calc(100% - 40px);
+	}
+	#info h1 {
+		font-size: 16px;
+	    font-weight: bold;
+	    letter-spacing: 0.3em;
+	    margin-bottom: 45px;
+	}
+	#info h1 span {
+		font-size: 14px;
+		letter-spacing: 0;
+		font-weight: normal;
+	}
+	#info p {
+		font-size: 13px;
+		line-height: 26px;
+	}
+	#about-pc {
+		display: none;
+	}
+	#about-sp {
+		display: block;
+		width: calc(100% - 40px);
+		position: absolute;
+		top: 300px;
+		left: 20px;
+	}
+	#about-sp p {
+		margin-left: 0;
+		background-color: #000;
+		color: #fff;
+		margin-bottom: 5px;
+		padding: 7px 14px;
+		line-height: 1em;
+		display: inline-block;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 375px) {
+	#first {
+		height: 900px;
+	}
+	#about-sp p {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 320px) {
+	#first {
+		height: 800px;
+	}
+	#info h1 {
+		font-size: 15px;
+	}
+	#info h1 span {
+		font-size: 13px;
+	}
+	#info p {
+		font-size: 12px;
+	}
+	#about-sp p {
+		font-size: 10px;
+	}
 }
