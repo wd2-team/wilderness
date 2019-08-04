@@ -49,6 +49,10 @@ table {
 }
 
 /* layout */
+body {
+  font-family: ten-mincho-text, serif;
+  font-feature-settings: "ss02";
+}
 .content {
 	width: 100%;
 	height: 100vh;
@@ -72,6 +76,9 @@ table {
 	margin: 0;
 	position: fixed;
 }
+.logo #logoimg {
+  width: 700px;
+}
 #info {
 	position: absolute;
 	bottom: 40px;
@@ -79,19 +86,21 @@ table {
 	width: 50%;
 }
 #info h1 {
-	font-size: 26px;
-    font-weight: bold;
-    letter-spacing: 0.3em;
-    margin-bottom: 120px;
+	font-family: toppan-bunkyu-midashi-go-std, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 10.2px;
+    margin-bottom: 50px;
 }
 #info h1 span {
+	font-family: ten-mincho-text, serif;
 	font-size: 20px;
-	letter-spacing: 0;
-	font-weight: normal;
+	letter-spacing: normal;
 }
 #info p {
 	font-size: 18px;
-	line-height: 35px;
+	line-height: 32px;
+	letter-spacing: 1.26px;
 }
 #about-pc {
 	position: absolute;
@@ -103,31 +112,14 @@ table {
 #about-pc p {
 	background-color: #000;
 	color: #fff;
-	margin-bottom: 5px;
-	padding: 8px 15px;
-	line-height: 1em;
 	display: inline-block;
+	font-size: 16px;
+	padding: 6px 8px;
+	margin-bottom: 9px;
+	line-height: 1.5em;
 }
 #about-sp {
 	display: none;
-}
-
-/* section second */
-#second {
-	display: none;
-}
-#second article {
-	color: white;
-	width: 800px;
-	padding-top: 50px;
-}
-#second article p {
-	background-color: gray;
-	margin-left: 100px;
-	margin-bottom: 20px;
-	padding: 10px 20px;
-	line-height: 1.5em;
-	display: inline-block;
 }
 
 
@@ -158,7 +150,7 @@ table {
 		position: absolute;
 	}
 	.logo #logoimg {
-		width: 100%;
+		width: 100vw;
 	}
 	#info {
 		position: absolute;

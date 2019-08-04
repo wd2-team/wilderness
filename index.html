@@ -7,14 +7,22 @@
 	<title>WILDERNESS GARDEN | ウィルダネス・ガーデン</title>
 	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
-<!-- 	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script> -->
+	<script>
+	 (function(d) {
+	   var config = {
+	     kitId: 'oba0naf',
+	     scriptTimeout: 3000,
+	     async: true
+	   },
+	   h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	 })(document);
+	</script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <section id="first" class="content box">
-	<p class="logo"><img id="logoimg" src="images/tmplogo.png"></p>
+	<p class="logo"><img id="logoimg" src="images/logo.svg"></p>
 	<div id="info">
 		<h1>WILDERNESS&nbsp;GARDEN<br><span>ウィルダネス・ガーデン</span></h1>
 		<p>0957-51-5793（キンバーライト合同会社兼用）<br>
@@ -46,13 +54,6 @@
 		<p>自分を感じられる居場所となること</p>
 		<p>それが私達が目指すガーデンの姿です</p>
 	</div>
-</section>
-
-<section id="second" class="content box">
-	<article>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-		<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</article>
 </section>
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
