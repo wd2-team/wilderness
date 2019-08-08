@@ -67,6 +67,12 @@ body {
 #second {
 	background-color: #fff;
 }
+.nondisplaysp {
+	display: block;
+}
+.displaysp {
+	display: none;
+}
 
 /* section first */
 .logo {
@@ -74,7 +80,7 @@ body {
 	position: fixed;
 }
 .logo #logoimg {
-	width: 450px;
+	width: 400px;
 }
 
 /* section second */

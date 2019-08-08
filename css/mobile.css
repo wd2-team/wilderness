@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* layout */
+body {
+  font-family: ten-mincho-text, serif;
+  font-feature-settings: "ss02";
+}
+.content {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	background-attachment: fixed;
+}
+#first {
+	background-color: #fff;
+}
+#second {
+	background-color: #fff;
+}
+.nondisplaysp {
+	display: none;
+}
+.displaysp {
+	display: block;
+}
+
+/* section first */
+.logo {
+	margin: 0;
+	position: fixed;
+}
+.logo #logoimg {
+	width: calc((100vw - 320px) / 1.166 + 210px);
+	min-width: 210px;
+	max-width: 300px;
+}
+
+/* section second */
+#second {
+	height: calc((100vw - 320px) / 0.403 + 820px);
+	min-height: 820px;
+	max-height: 1080px;
+}
+#second article {
+	color: white;
+	width: calc((100vw - 320px) / 1.235 + 296px);
+	min-width: 296px;
+	max-width: 381px;
+	padding-top: calc((100vw - 320px) / 7.5 + 28px);
+	padding-left: calc((100vw - 320px) / 52.5 + 14px);
+}
+#second article p {
+	background-color: #000;
+	font-size: calc((100vw - 320px) / 35 + 12px);
+	margin-bottom: calc((100vw - 320px) / 52.5 + 4px);
+	padding: 4px;
+	padding-left: calc((100vw - 320px) / 26.25 + 4px);
+	padding-right: calc((100vw - 320px) / 26.25 + 4px);
+	line-height: 1.3em;
+	display: inline-block;
+}
+#second article p:nth-child(9) {
+	margin-right: 4px;
+}
+#second #info {
+	position: absolute;
+	bottom: calc((100vw - 320px) / 17.5 + 38px);
+	left: calc((100vw - 320px) / 5.526 + 25px);
+}
+#second #info h1 {
+	font-family: toppan-bunkyu-midashi-go-std, sans-serif;
+	font-size: calc((100vw - 320px) / 35 + 13px);
+	font-weight: bold;
+	letter-spacing: 8px;
+	margin-bottom: calc((100vw - 320px) / 8.076 + 44px);
+}
+#second #info h1 span {
+	font-family: ten-mincho-text, serif;
+	font-size: calc((100vw - 320px) / 35 + 11px);
+	letter-spacing: normal;
+}
+#second #info p {
+	font-size: calc((100vw - 320px) / 52.5 + 11px);
+	line-height: calc((100vw - 320px) / 35 + 21px);
+	letter-spacing: 1.26px;
+}
+#second #info ul {
+	margin-top: calc((100vw - 320px) / 10.5 + 20px);
+}
+#second #info ul li {
+	display: inline-block;
+	width: 42%;
+	font-size: 10px;
+	line-height: 30px;
+	letter-spacing: 1.06px;
+}
+#second #info ul li a {
+	color: #000;
+	text-decoration: none;
+}
+#second #info ul li a i {
+	vertical-align: middle;
+}
+#second #rightlogo {
+	position: relative;
+	text-align: center;
+	margin-top: calc((100vw - 320px) / 8.076 + 17px);
+}
+#second #rightlogo img {
+	width: calc((100vw - 320px) / 1.166 + 195px);
+	min-width: 195px;
+	max-width: 285px;
+}
+
+@media (max-width: 320px) {
+	#second article {
+		padding-top: 28px;
+		padding-left: 14px;
+	}
+	#second article p {
+		font-size: 12px;
+		margin-bottom: 4px;
+	}
+	#second #info {
+		bottom: 38px;
+		left: 25px;
+	}
+	#second #info h1 {
+		font-size: 13px;
+		margin-bottom: 44px;
+	}
+	#second #info h1 span {
+		font-size: 11px;
+	}
+	#second #info p {
+		font-size: 11px;
+		line-height: 21px;
+	}
+	#second #info ul{
+		margin-top: 20px;
+	}
+	#second #rightlogo {
+		margin-top: 17px;
+	}
+}
+@media (min-width: 425px) {
+	#second article {
+		padding-top: 42px;
+		padding-left: 16px;
+	}
+	#second article p {
+		font-size: 15px;
+		margin-bottom: 6px;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	#second #info {
+		bottom: 44px;
+		left: 44px;
+	}
+	#second #info h1 {
+		font-size: 16px;
+		margin-bottom: 57px;
+		line-height: 24px;
+	}
+	#second #info h1 span {
+		font-size: 14px;
+	}
+	#second #info p {
+		font-size: 13px;
+		line-height: 24px;
+	}
+	#second #info ul{
+		margin-top: 30px;
+	}
+	#second #rightlogo {
+		margin-top: 30px;
+	}
+}
