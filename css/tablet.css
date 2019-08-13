@@ -82,6 +82,64 @@ body {
 .logo #logoimg {
 	width: 400px;
 }
+#flowers ul li {
+	position: absolute;
+}
+#flowers ul li.flo01 {
+	width: 46%;
+	top: 10%;
+	right: -15%;
+	/* min-width: 145px;
+    max-width: 200px; */
+}
+#flowers ul li.flo02 {
+	width: 23%;
+	top: 49%;
+	right: -7%;
+}
+#flowers ul li.flo03 {
+	width: 26%;
+	top: -4%;
+	right: 13%;
+}
+#flowers ul li.flo04 {
+	width: 11%;
+	top: 10%;
+	right: 37%;
+}
+#flowers ul li.flo05 {
+	width: 35%;
+	bottom: -7%;
+	left: 2%;
+}
+#flowers ul li.flo06 {
+	width: 36%;
+	bottom: -7%;
+	right: 8%;
+}
+#flowers ul li.flo07 {
+	width: 69%;
+	top: 3%;
+	left: -32%;
+}
+#flowers ul li.flo08 {
+	width: 38%;
+	top: 57%;
+	left: -15%;
+}
+#flowers ul li.flo09 {
+	width: 22%;
+	top: -3%;
+	left: 28%;
+}
+#flowers ul li.flo10 {
+	width: 14%;
+	bottom: -4%;
+	right: 36%;
+}
+#flowers ul li img {
+	width: 100%;
+}
 
 /* section second */
 #second article {

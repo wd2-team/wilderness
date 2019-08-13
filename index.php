@@ -2,6 +2,20 @@
 
 <section id="first" class="content box">
 	<p class="logo"><img id="logoimg" src="<?php echo get_template_directory_uri(); ?>/images/tmplogo.png"></p>
+	<div id="flowers">
+		<ul>
+			<li class="flo01"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo1.png"></li>
+			<li class="flo02"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo2.png"></li>
+			<li class="flo03"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo3.png"></li>
+			<li class="flo04"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo4.png"></li>
+			<li class="flo05"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo5.png"></li>
+			<li class="flo06"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo6.png"></li>
+			<li class="flo07"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo7.png"></li>
+			<li class="flo08"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo8.png"></li>
+			<li class="flo09"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo9.png"></li>
+			<li class="flo10"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo10.png"></li>
+		</ul>
+	</div>
 </section>
 
 <section id="second" class="content box">
