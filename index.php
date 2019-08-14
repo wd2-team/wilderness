@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section id="first" class="content box">
-	<p class="logo"><img id="logoimg" src="<?php echo get_template_directory_uri(); ?>/images/tmplogo.png"></p>
+	<p class="logo"><img id="logoimg" src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></p>
 	<div id="flowers">
 		<ul>
 			<li class="flo01"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo1.png"></li>
@@ -16,9 +16,10 @@
 			<li class="flo10"><img src="<?php echo get_template_directory_uri(); ?>/images/wilderness_photo10.png"></li>
 		</ul>
 	</div>
+	<p class="scroll"><img id="scrollimg" src="<?php echo get_template_directory_uri(); ?>/images/scroll.png"></p>
 </section>
 
-<section id="second" class="content box">
+<section id="second" class="content box scroll-fade">
 	<article class="nondisplaysp">
 		<p>乾いた砂、荒々しい岩場、刺々しい木々が混在する荒野の大地で</p>
 		<p>堂々と静かに、そして鮮やかに育つ植物たちは</p>
