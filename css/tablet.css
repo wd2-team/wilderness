@@ -243,7 +243,6 @@ body {
 }
 @media (max-width: 768px) {
 	#second article {
-		width: 600px;
 		padding-top: 70px;
 	}
 	#second article p {
@@ -251,7 +250,6 @@ body {
 		margin-left: 45px;
 		margin-bottom: 6px;
 		padding: 4px 8px;
-		line-height: 1.5em;
 	}
 	#second #info {
 		bottom: 55px;
@@ -275,13 +273,11 @@ body {
 		margin-top: 25px;
 	}
 	#second #info ul li {
-		width: 38%;
 		font-size: 11px;
 		line-height: 27px;
 		letter-spacing: 1.06px;
 	}
 	#second #info ul li a i.fa-2x {
-		font-size: 1.75em;
 		margin-right: 5px;
 	}
 	#second #rightlogo {
@@ -291,7 +287,6 @@ body {
 }
 @media (min-width: 1024px) {
 	#second article {
-		width: 799.99px;
 		padding-top: 93.33px;
 	}
 	#second article p {
@@ -299,7 +294,6 @@ body {
 		margin-left: 59.99px;
 		margin-bottom: 7.99px;
 		padding: 5.33px 10.66px;
-		line-height: 1.5em;
 	}
 	#second #info {
 		bottom: 73.33px;
@@ -329,7 +323,6 @@ body {
 		letter-spacing: 1.41px;
 	}
 	#second #info ul li a i.fa-2x {
-		font-size: 1.75em;
 		margin-right: 6.66px;
 	}
 	#second #rightlogo {
@@ -338,68 +331,137 @@ body {
 	}
 }
 @media (orientation: landscape) {
+	.logo #logoimg {
+	    width: calc(370 * 100vw / 1024);
+	    min-width: 370px;
+	    max-width: 493.57px;
+	}
 	#flowers ul li.flo01 {
 		width: 33%;
 		top: -10%;
 		right: -7.5%;
 		min-width: 337.91px;
+		max-width: 450.78px;
 	}
 	#flowers ul li.flo02 {
 		width: 15%;
 		top: 56%;
 		right: -4.5%;
 		min-width: 153.59px;
+		max-width: 204.9px;
 	}
 	#flowers ul li.flo03 {
 		width: 16%;
 		top: -5.5%;
 		right: 25%;
 		min-width: 163.83px;
+		max-width: 218.56px;
 	}
 	#flowers ul li.flo04 {
 		width: 8.5%;
 		top: 9%;
 		right: 43%;
 		min-width: 87.03px;
+		max-width: 116.11px;
 	}
 	#flowers ul li.flo05 {
 		width: 20%;
 		bottom: -3.5%;
 		left: 18%;
 		min-width: 204.8px;
+		max-width: 273.2px;
 	}
 	#flowers ul li.flo06 {
 		width: 18%;
 		bottom: -6.5%;
 		right: 10%;
 		min-width: 184.31px;
+		max-width: 245.88px;
 	}
 	#flowers ul li.flo07 {
 		width: 46%;
 		top: 5%;
 		left: -15%;
 		min-width: 471.03px;
+		max-width: 628.36px;
 	}
 	#flowers ul li.flo08 {
 		width: 17%;
 		top: 89%;
 		left: 0.5%;
 		min-width: 174.08px;
+		max-width: 232.22px;
 	}
 	#flowers ul li.flo09 {
 		width: 14%;
 		top: -4.5%;
 		left: 28%;
 		min-width: 145.91px;
+		max-width: 191.24px;
 	}
 	#flowers ul li.flo10 {
 		width: 13%;
 		bottom: -3.5%;
 		right: 28%;
 		min-width: 133.11px;
+		max-width: 177.58px;
 	}
 	#second article {
-		width: 600px;
+		width: calc(600 * 100vw / 1024);
+		min-width: 600px;
+		max-width: 800.39px;
+		padding-top: calc(60 * 100vw / 1024);
+	}
+	#second article p {
+		font-size: calc(16 * 100vw / 1024);
+		margin-left: calc(45 * 100vw / 1024);
+		margin-bottom: calc(6 * 100vw / 1024);
+		padding: calc(4 * 100vw / 1024) calc(8 * 100vw / 1024);
+		line-height: 1.5em;
+	}
+	#second #info {
+		bottom: calc(55 * 100vw / 1024);
+		left: calc(43 * 100vw / 1024);
+	}
+	#second #info h1 {
+		font-size: calc(17 * 100vw / 1024);
+		letter-spacing: calc(8 * 100vw / 1024);
+		margin-bottom: calc(50 * 100vw / 1024);
+		line-height: calc(25 * 100vw / 1024);
+	}
+	#second #info h1 span {
+		font-size: calc(16 * 100vw / 1024);
+	}
+	#second #info p {
+		font-size: calc(14 * 100vw / 1024);
+		line-height: calc(25 * 100vw / 1024);
+		letter-spacing: calc(1 * 100vw / 1024);
+	}
+	#second #info ul {
+		margin-top: calc(25 * 100vw / 1024);
+	}
+	#second #info ul li {
+		width: 38%;
+		font-size: calc(11 * 100vw / 1024);
+		line-height: calc(27 * 100vw / 1024);
+		letter-spacing: calc(1.06 * 100vw / 1024);
+	}
+	#second #info ul li a i.fa-2x {
+		font-size: 1.75em;
+		margin-right: calc(5 * 100vw / 1024);
+	}
+	#second #rightlogo {
+		bottom: calc(25 * 100vw / 1024);
+		right: calc(15 * 100vw / 1024);
+	}
+	#second #rightlogo img {
+		width: calc(350 * 100vw / 1024);
+		min-width: 350px;
+		max-width: 466.89px;
+	}
+}
+@media (orientation: landscape) and (max-width: 1024px) {
+	#second article {
 		padding-top: 60px;
 	}
 	#second article p {
@@ -407,7 +469,6 @@ body {
 		margin-left: 45px;
 		margin-bottom: 6px;
 		padding: 4px 8px;
-		line-height: 1.5em;
 	}
 	#second #info {
 		bottom: 55px;
@@ -431,20 +492,59 @@ body {
 		margin-top: 25px;
 	}
 	#second #info ul li {
-		width: 38%;
 		font-size: 11px;
 		line-height: 27px;
 		letter-spacing: 1.06px;
 	}
 	#second #info ul li a i.fa-2x {
-		font-size: 1.75em;
 		margin-right: 5px;
 	}
 	#second #rightlogo {
 		bottom: 25px;
 		right: 15px;
 	}
-	#second #rightlogo img {
-		width: 350px;
+}
+@media (orientation: landscape) and (min-width: 1366px) {
+	#second article {
+		padding-top: 80.03px;
+	}
+	#second article p {
+		font-size: 21.34px;
+		margin-left: 60.02px;
+		margin-bottom: 8px;
+		padding: 5.33px 10.67px;
+	}
+	#second #info {
+		bottom: 73.36px;
+		left: 57.36px;
+	}
+	#second #info h1 {
+		font-size: 22.67px;
+		letter-spacing: 10.67px;
+		margin-bottom: 66.69px;
+		line-height: 33.34px;
+	}
+	#second #info h1 span {
+		font-size: 21.34px;
+	}
+	#second #info p {
+		font-size: 18.67px;
+		line-height: 33.34px;
+		letter-spacing: 1.33px;
+	}
+	#second #info ul {
+		margin-top: 33.34px;
+	}
+	#second #info ul li {
+		font-size: 14.67px;
+		line-height: 36.01px;
+		letter-spacing: 1.41px;
+	}
+	#second #info ul li a i.fa-2x {
+		margin-right: 6.66px;
+	}
+	#second #rightlogo {
+		bottom: 33.34px;
+		right: 20px;
 	}
 }
